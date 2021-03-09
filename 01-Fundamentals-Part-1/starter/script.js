@@ -1,4 +1,5 @@
-/* LECTURE 1 - JS Fundamentals Part 1
+/*
+//LECTURE 1 - JS Fundamentals Part 1
 let js = 'amazing';
 console.log(40 + 8 + 23 - 10);
 
@@ -53,8 +54,6 @@ const birthYear = 1991;
 var job = "programmer";
 job = "teacher";
 
-
-//
 lastName = "Patel";
 console.log(lastName);
 
@@ -62,3 +61,36 @@ console.log(lastName);
 
 /**************Basic Operators**********/
 
+// Math Operators 
+const now = 2037;
+const ageAnkur = now - 1996;
+const ageSarah = now - 2019;
+console.log(ageAnkur, ageSarah);
+
+console.log(ageAnkur * 2, ageAnkur / 10, 2**3);
+//2**3 means 2 to the power of 3 = 2 * 2 * 2
+
+const firstName = "Ankur";
+const lastName = "Patel";
+
+console.log(firstName + ' ' + lastName);
+
+// Assignment operators
+let x = 10 + 5; //x = 15
+x += 10; //x = x + 10 = 25
+x *= 4;// x = x * 4 = 100
+x++; // x + 1 = 101
+x--; // x - 1 = 100
+x--; // x - 1 = 99
+
+console.log(x);
+
+// Comparison Operators
+
+console.log(ageAnkur > ageSarah); // > , < , >= , <=
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+
+console.log(now - 1996 > now - 2019);
+        
