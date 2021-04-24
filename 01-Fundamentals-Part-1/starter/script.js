@@ -117,7 +117,7 @@ console.log(ageAnkur, ageSarah, averageAge);
 /*
  * Caluculating Mark and Johns BMI.
  */
-
+/*
 //Test Data 1
 const markMass = 78;
 const markHeight = 1.69;
@@ -144,4 +144,24 @@ const markHigherBMIOne = markBMIOne > johnBMIOne;
 
 console.log(markBMI, johnBMI, markHigherBMI);
 console.log(markBMIOne, johnBMIOne, markHigherBMIOne);
+
+*/
+
+const firstName = "Ankur";
+const job  = "programmer";
+const birthYear = 1996;
+const year = 2037;
+
+const ankur = "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + ".";
+
+console.log(ankur);
+
+const ankurNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}.`;
+
+console.log(ankurNew);
+
+console.log('String \n\
+with \n\
+multiple \n\
+lines.');
 
