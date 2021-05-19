@@ -143,8 +143,7 @@ const markHigherBMIOne = markBMIOne > johnBMIOne;
 
 
 console.log(markBMI, johnBMI, markHigherBMI);
-console.log(markBMIOne, 
-    johnBMIOne, markHigherBMIOne);
+console.log(markBMIOne, johnBMIOne, markHigherBMIOne);
 
 
 
@@ -165,7 +164,7 @@ console.log('String \n\
 with \n\
 multiple \n\
 lines.');
-*/
+
 
 const age = 15;
 // const isOldEnough = age >= 18;
@@ -185,5 +184,50 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+
+*/
+
+
+/************Coding Challenge 2 **************/
+
+//Test Data
+const markMass = 78;
+const markHeight = 1.69;
+
+const johnMass = 92;
+const johnHeight = 1.95;
+
+// Test Data One
+const markMassOne = 95;
+const markHeightOne = 1.88;
+
+const johnMassOne = 85;
+const johnHeightOne = 1.76;
+
+const markBMI = markMass / markHeight ** 2;
+const johnBMI = johnMass / johnHeight **2;
+
+const markBMIOne = markMassOne / markHeightOne ** 2;
+const johnBMIOne = johnMassOne / johnHeightOne **2;
+
+if (johnBMI > markBMI){
+    console.log(`John's BMI (${johnBMI}) is higher than Mark's (${markBMI}).`)
+} else {
+    console.log(`Mark's BMI (${markBMI}) is higher than John's, which was (${johnBMI}). `)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
