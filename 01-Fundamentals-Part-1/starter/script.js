@@ -187,9 +187,8 @@ console.log(century);
 
 */
 
-
 /************Coding Challenge 2 **************/
-
+/*
 //Test Data
 const markMass = 78;
 const markHeight = 1.69;
@@ -216,12 +215,21 @@ if (johnBMI > markBMI){
     console.log(`Mark's BMI (${markBMI}) is higher than John's, which was (${johnBMI}). `)
 }
 
+*/
 
 
+const inputYear = '1996';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+console.log(Number('Ankur'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
 
 
+//Type Corecion
 
-
+console.log('I am ' + 23 + ' years old.')
 
 
 
