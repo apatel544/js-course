@@ -378,7 +378,7 @@ switch(day) {
     default:
         console.log('invalid date');
 }
-*/
+
 
 //Conditional Operator: Ternary Operator
 
@@ -386,20 +386,12 @@ const age = 23;
 // age >= 18 ? console.log('I like to drink wine!') : console.log('I like to drink water!');
 const drink = age >= 18 ? 'wine' : 'water';
 console.log(drink); //wine when age > 18 and water when age is > 25
+*/
 
 
 
+/****************Coding Challenge 4 ************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+const bill = 275;
+const tip = (bill >= 50 && bill <= 300) ? bill * .15 : bill * .20;
+console.log(`The bill is ${bill} and the tip is ${tip}. The total bill was ${bill + tip}`);
