@@ -299,3 +299,55 @@ if(hasLicense && goodVision && !isTired){
 }
 
 */
+
+/********************Coding Challenge 3 **************/
+
+/** Main coding challenge
+ * Calculating the average of both teams scores and using logical operators
+ * to see which team has a greater score to win!
+ */
+
+const avrgDolphinScore = (96 + 108 + 89) / 3;
+const avrgKoalaScore = (88 + 91 + 118) / 3;
+
+console.log(avrgDolphinScore, avrgKoalaScore);
+
+if (avrgDolphinScore > avrgKoalaScore) {
+    console.log("Doliphin's win!");
+} else if (avrgKoalaScore > avrgDolphinScore) {
+    console.log("Koala's win!");
+} else if (avrgDolphinScore === avrgKoalaScore) {
+    console.log("It's a Draw!");
+}
+
+//Bonus 1 coding challenge
+const dolphinsAvrg = (97 + 112 + 101) / 3;
+const koalasAvrg = (109 + 95 + 110) / 3;
+
+console.log(dolphinsAvrg, koalasAvrg);
+
+if (dolphinsAvrg >= 100 && dolphinsAvrg > koalasAvrg) {
+    console.log("Doliphin's win!");
+} else if (koalasAvrg>= 100 && koalasAvrg > dolphinsAvrg) {
+    console.log("Koala's win!");
+} 
+else if (dolphinsAvrgScore === koalasAvrgScore && dolphinsAvrgScore >= 100 && koalasAvrgScore >= 100) {
+    console.log("Its a Draw!");
+}
+
+
+// Bonus 2 coding challenge
+const dolphinsAvrgScore = (97 + 112 + 101) / 3;
+const koalasAvrgScore = (109 + 95 + 106) / 3;
+
+console.log(dolphinsAvrgScore, koalasAvrgScore);
+
+if (dolphinsAvrgScore >= 100 && dolphinsAvrgScore > koalasAvrgScore) {
+    console.log("Doliphin's win!");
+} else if (koalasAvrgScore >= 100 && koalasAvrgScore > dolphinsAvrgScore) {
+    console.log("Koala's win!");
+} else if (dolphinsAvrgScore === koalasAvrgScore && dolphinsAvrgScore >= 100 && koalasAvrgScore >= 100) {
+    console.log("Its a Draw!");
+} else if (dolphinsAvrg < 100 && koalasAvrg < 100) {
+    console.log("its a draw!");
+}
