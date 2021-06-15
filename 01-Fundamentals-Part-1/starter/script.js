@@ -214,10 +214,9 @@ if (johnBMI > markBMI){
 } else {
     console.log(`Mark's BMI (${markBMI}) is higher than John's, which was (${johnBMI}). `)
 }
-
 */
-
-
+/**************Type Coercion******/
+/*
 const inputYear = '1996';
 console.log(Number(inputYear), inputYear);
 console.log(Number(inputYear) + 18);
@@ -230,6 +229,42 @@ console.log(String(23), 23);
 //Type Corecion
 
 console.log('I am ' + 23 + ' years old.')
+*/
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(NaN));
+console.log(Boolean('Ankur'));
+console.log(Boolean({}));
+
+
+const age = 18;
+
+if(age === 18){
+    console.log("You are a new adult!!! (Strict)");
+}
+if (age == 18) {
+    console.log("You just became an adult! (loose)");
+}
+
+const favorite = Number(prompt("what is your favorite number?"));
+console.log(favorite);
+console.log(typeof favorite);
+
+if (favorite === 23) {
+    console.log('23 is a cool number');
+} else if (favorite === 7) {
+    console.log('7 is pretty great!');
+} else if (favorite === 9) {
+    console.log('9 is also really cool!');
+} else {
+    console.log('The number entered isnt 23, 7, or 9.')
+}
+
+if (favorite !== 23){
+    console.log('Why not 23 or 7?');
+}
+
 
 
 
