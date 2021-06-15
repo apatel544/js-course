@@ -352,9 +352,8 @@ if (dolphinsAvrgScore >= 100 && dolphinsAvrgScore > koalasAvrgScore) {
 } else if (dolphinsAvrg < 100 && koalasAvrg < 100) {
     console.log("its a draw!");
 }
-*/
 
-
+//Switch Statements
 const day = 'thursday';
 
 switch(day) {
@@ -379,3 +378,28 @@ switch(day) {
     default:
         console.log('invalid date');
 }
+*/
+
+//Conditional Operator: Ternary Operator
+
+const age = 23;
+// age >= 18 ? console.log('I like to drink wine!') : console.log('I like to drink water!');
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink); //wine when age > 18 and water when age is > 25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
