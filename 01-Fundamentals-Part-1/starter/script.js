@@ -229,7 +229,7 @@ console.log(String(23), 23);
 //Type Corecion
 
 console.log('I am ' + 23 + ' years old.')
-*/
+
 
 console.log(Boolean(0));
 console.log(Boolean(undefined));
@@ -265,12 +265,37 @@ if (favorite !== 23){
     console.log('Why not 23 or 7?');
 }
 
+*/
+
+
+/*********** Boolean Logic ****************/
+
+/*
+const hasLicense  = true; // A
+const goodVision = true;  // B
+
+console.log(hasLicense && goodVision);
+console.log(hasLicense || goodVision);
+console.log(!hasLicense && goodVision);
 
 
 
+const shouldDrive = hasLicense && goodVision;
 
+// if(shouldDrive){
+//     console.log('Sarah can drive!')
+// }else {
+//     console.log('Sarah needs to be driven around.')
+// }
 
+const isTired = false; // C
 
+console.log(hasLicense && goodVision && isTired);
 
+if(hasLicense && goodVision && !isTired){
+    console.log('Sarah can drive!')
+}else {
+    console.log('Sarah needs to be driven around.')
+}
 
-
+*/
