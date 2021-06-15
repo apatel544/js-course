@@ -60,7 +60,7 @@ console.log(lastName);
 */
 
 /**************Basic Operators**********/
-
+/*
 // Math Operators 
 const now = 2037;
 const ageAnkur = now - 1996;
@@ -75,7 +75,7 @@ const lastName = "Patel";
 
 console.log(firstName + ' ' + lastName);
 
-// Assignment operators
+// Assignment operators     
 let x = 10 + 5; //x = 15
 x += 10; //x = x + 10 = 25
 x *= 4;// x = x * 4 = 100
@@ -93,4 +93,184 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(now - 1996 > now - 2019);
+
         
+const now = 2037;
+const ageAnkur = now - 1996;
+const ageSarah = now - 2019;
+
+console.log(now - 1996 > now - 2019);
+
+console.log(25 - 10 - 5);
+
+let x, y;
+
+x = y = 25 - 10 - 5;
+console.log(x,y);
+ 
+const averageAge = (ageAnkur + ageSarah) / 2;
+console.log(ageAnkur, ageSarah, averageAge);
+*/
+
+
+/*********Coding Challenge 1 *************/
+/*
+ * Caluculating Mark and Johns BMI.
+ */
+/*
+//Test Data 1
+const markMass = 78;
+const markHeight = 1.69;
+
+const johnMass = 92;
+const johnHeight = 1.95;
+
+// Test Data One
+const markMassOne = 95;
+const markHeightOne = 1.88;
+
+const johnMassOne = 85;
+const johnHeightOne = 1.76;
+
+const markBMI = markMass / markHeight ** 2;
+const johnBMI = johnMass / johnHeight **2;
+
+const markBMIOne = markMassOne / markHeightOne ** 2;
+const johnBMIOne = johnMassOne / johnHeightOne **2;
+
+const markHigherBMI = markBMI > johnBMI;
+const markHigherBMIOne = markBMIOne > johnBMIOne;
+
+
+console.log(markBMI, johnBMI, markHigherBMI);
+console.log(markBMIOne, johnBMIOne, markHigherBMIOne);
+
+
+
+const firstName = "Ankur";
+const job  = "programmer";
+const birthYear = 1996;
+const year = 2037;
+
+const ankur = "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + ".";
+
+console.log(ankur);
+
+const ankurNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}.`;
+
+console.log(ankurNew);
+
+console.log('String \n\
+with \n\
+multiple \n\
+lines.');
+
+
+const age = 15;
+// const isOldEnough = age >= 18;
+
+if (age >= 18) {
+    console.log('Sarah can start driving!');
+} else {
+    yearsLeft = 18 - age;
+    console.log(`Sarah has to wait ${yearsLeft} before she can drive.`);
+}
+
+const birthYear = 1996;
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
+
+*/
+
+/************Coding Challenge 2 **************/
+/*
+//Test Data
+const markMass = 78;
+const markHeight = 1.69;
+
+const johnMass = 92;
+const johnHeight = 1.95;
+
+// Test Data One
+const markMassOne = 95;
+const markHeightOne = 1.88;
+
+const johnMassOne = 85;
+const johnHeightOne = 1.76;
+
+const markBMI = markMass / markHeight ** 2;
+const johnBMI = johnMass / johnHeight **2;
+
+const markBMIOne = markMassOne / markHeightOne ** 2;
+const johnBMIOne = johnMassOne / johnHeightOne **2;
+
+if (johnBMI > markBMI){
+    console.log(`John's BMI (${johnBMI}) is higher than Mark's (${markBMI}).`)
+} else {
+    console.log(`Mark's BMI (${markBMI}) is higher than John's, which was (${johnBMI}). `)
+}
+*/
+/**************Type Coercion******/
+/*
+const inputYear = '1996';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+console.log(Number('Ankur'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+
+//Type Corecion
+
+console.log('I am ' + 23 + ' years old.')
+*/
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(NaN));
+console.log(Boolean('Ankur'));
+console.log(Boolean({}));
+
+
+const age = 18;
+
+if(age === 18){
+    console.log("You are a new adult!!! (Strict)");
+}
+if (age == 18) {
+    console.log("You just became an adult! (loose)");
+}
+
+const favorite = Number(prompt("what is your favorite number?"));
+console.log(favorite);
+console.log(typeof favorite);
+
+if (favorite === 23) {
+    console.log('23 is a cool number');
+} else if (favorite === 7) {
+    console.log('7 is pretty great!');
+} else if (favorite === 9) {
+    console.log('9 is also really cool!');
+} else {
+    console.log('The number entered isnt 23, 7, or 9.')
+}
+
+if (favorite !== 23){
+    console.log('Why not 23 or 7?');
+}
+
+
+
+
+
+
+
+
+
+
