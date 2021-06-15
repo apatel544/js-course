@@ -307,6 +307,7 @@ if(hasLicense && goodVision && !isTired){
  * to see which team has a greater score to win!
  */
 
+/*
 const avrgDolphinScore = (96 + 108 + 89) / 3;
 const avrgKoalaScore = (88 + 91 + 118) / 3;
 
@@ -350,4 +351,31 @@ if (dolphinsAvrgScore >= 100 && dolphinsAvrgScore > koalasAvrgScore) {
     console.log("Its a Draw!");
 } else if (dolphinsAvrg < 100 && koalasAvrg < 100) {
     console.log("its a draw!");
+}
+*/
+
+
+const day = 'thursday';
+
+switch(day) {
+    case 'monday':
+        console.log('Plan course structure.');
+        console.log('Go to coding bootcamp.');
+        break;
+    case 'tuesday':
+        console.log('Prepare git repository.');
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log('Write code examples');
+        break;
+    case 'friday':
+        console.log('Record videos.');
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log('Enjoy the weekend!')
+        break;
+    default:
+        console.log('invalid date');
 }
